@@ -22,6 +22,8 @@ public class RouteController {
     @GetMapping("/routes")
     public String routes(Model model){
 
+        //Testing
+
         //RouteShortInfoDTO randomRoute = routeService.getRandomRoute();
 
         List<RouteShortInfoDTO> routes = routeService.getAll();
